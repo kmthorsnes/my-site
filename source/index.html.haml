@@ -1,0 +1,44 @@
+---
+title: karlmagnus
+---
+<!-- About me Section -->
+%section.about-me
+  .container
+    .box
+      %h1 karlmagnus
+      %h3 < about_me />
+      %img(src="/images/karlmagnus.png")
+      %p 32 year old norwegian who enjoys code, cheap airline tickets, lower division football, sundays, robotic vacuumers, cheap things from ebay and the feeling you get when wearing a pair of brand new socks for the first time.
+
+<!-- Contact -->
+%Section.contact
+  .container
+    .box
+      %h3 < Contact />
+      %p +47 93458771
+      %p <a href="mailto:hei@karlmagnus.no?Subject=Hei%20Kalle" target="_top">hei@karlmagnus.no</a>
+      %p Github
+      %p LinkedIn
+      %p Facebook
+      %p Instagram
+
+<!-- Tools -->
+%Section.contact
+  .container
+    .box
+      %h3 < Tools />
+      %p ruby
+      %p JS
+      %p HTML
+      %p CSS
+
+
+<!-- Portfolio section -->
+%Section.contact
+  .container
+    .box
+      %h3 < Projects />
+.projects
+  - data.projects.each do |project|
+    %h4= project[:name]
+    %a{href: project[:url]}= project[:description]

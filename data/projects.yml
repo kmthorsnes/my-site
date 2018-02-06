@@ -1,0 +1,15 @@
+- name: Cooper test
+  description: First JS project.
+  url: https://github.com/kmthorsnes/cooper_test
+
+- name: BMI challenge
+  description: Small applicatoion based on JS and HTML which calculates BMI values.
+  url: https://github.com/kmthorsnes/BMIChallenge
+
+- name: ATM challenge
+  description: My second try on this virtual ATM created in Ruby
+  url: https://github.com/kmthorsnes/atm2
+
+- name: FizzBuzz
+  description: My first Test driven ruby project
+  url: https://github.com/kmthorsnes/fizz_buzz
