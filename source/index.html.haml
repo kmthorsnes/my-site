@@ -4,71 +4,63 @@ title: karlmagnus
 .main
 
 <!-- title -->
-%section.about-me
+%section.title
   .container
     .box
       %h1 karlmagnus
 
-<!-- Photo Section -->
-%section.photo
-  .container
-    .box
-      %img(src="/images/karlmagnus.png" width="20%" height="20%")
-
-<!-- about me -->
-%section.about-me
-  .container
-    .box
+<!-- About me Section -->
+.about-me
+  .photo
+    %img(src="/images/karlmagnus.png" width="20%" height="20%")
+  .about_me_text
+    .text
       %h3 < about_me />
       %p 32 year old norwegian who enjoys cheap airline tickets, lower division football, sundays, robotic vacuumers, cheap things from ebay and the feeling you get when wearing a pair of brand new socks for the first time. Oh, almost forgot, I'm trying to learn to code!
 
-<!-- contact -->
-%Section.contact
-  .container
-    .box
-      %h3 < contact />
-      %p +47 93458771
-      %p <a href="mailto:hei@karlmagnus.no?Subject=Hei%20Kalle" target="_top">hei@karlmagnus.no</a>
-      %p <a href="https://github.com/kmthorsnes">GitHub</a>
-      %p <a href="https://www.linkedin.com/in/karl-magnus-thorsnes/">LinkedIn</a>
-      %p <a href="https://www.facebook.com/karlmagnus">Facebook</a>
-      %p <a href="https://www.facebook.com/karlmagnus">Instagram</a>
--# %Section.test
--#   .container
--#     .box
--#       %h3 Single Coloured
--#       %hr/
--#       .text-center.center-block
--#       %p.txt-railway - Bootsnipp.com -
--#       %br/
--#       %a{:href => "https://www.facebook.com/bootsnipp"}
--#       %i.fa.fa-facebook-square.fa-3x.social
--#       %a{:href => "https://twitter.com/bootsnipp"}
--#       %i.fa.fa-twitter-square.fa-3x.social
--#       %a{:href => "https://plus.google.com/+Bootsnipp-page"}
--#       %i.fa.fa-google-plus-square.fa-3x.social
--#       %a{:href => "mailto:bootsnipp@gmail.com"}
--#       %i.fa.fa-envelope-square.fa-3x.social
--#       %hr/
+<!-- Info -->
+.info
+  .contact
+    %h3 < contact />
+    %p +47 93458771
+    %p
+      %a{:href => "mailto:hei@karlmagnus.no?Subject=Hei%20Kalle", :target => "_top"} hei@karlmagnus.no
+    %p
+      %a{:href => "https://github.com/kmthorsnes"} GitHub
+    %p
+      %a{:href => "https://www.linkedin.com/in/karl-magnus-thorsnes/"} LinkedIn
+    %p
+      %a{:href => "https://www.facebook.com/karlmagnus"} Facebook
+    %p
+      %a{:href => "https://www.instagram.com/karl_magnus"} Instagram
+  .tools
+    %h3 < tools />
+    %p ruby
+    %p JS
+    %p HTML
+    %p CSS
+  .projects
+    - data.projects.each do |project|
+      %h4= project[:name]
+      %a{href: project[:url]}= project[:description]
 
 
-<!-- Tools -->
-%Section.contact
-  .container
-    .box
-      %h3 < Tools />
-      %p ruby
-      %p JS
-      %p HTML
-      %p CSS
-
-
-<!-- Portfolio section -->
-%Section.contact
-  .container
-    .box
-      %h3 < Projects />
-.projects
-  - data.projects.each do |project|
-    %h4= project[:name]
-    %a{href: project[:url]}= project[:description]
+-# -# %Section.test
+-# -#   .container
+-# -#     .box
+-# -#       %h3 Single Coloured
+-# -#       %hr/
+-# -#       .text-center.center-block
+-# -#       %p.txt-railway - Bootsnipp.com -
+-# -#       %br/
+-# -#       %a{:href => "https://www.facebook.com/bootsnipp"}
+-# -#       %i.fa.fa-facebook-square.fa-3x.social
+-# -#       %a{:href => "https://twitter.com/bootsnipp"}
+-# -#       %i.fa.fa-twitter-square.fa-3x.social
+-# -#       %a{:href => "https://plus.google.com/+Bootsnipp-page"}
+-# -#       %i.fa.fa-google-plus-square.fa-3x.social
+-# -#       %a{:href => "mailto:bootsnipp@gmail.com"}
+-# -#       %i.fa.fa-envelope-square.fa-3x.social
+-# -#       %hr/
+-#
+-#

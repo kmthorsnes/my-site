@@ -1,0 +1,42 @@
+p {
+  line-height: normal;
+}
+
+h3 {
+  color: #6998a0;
+}
+
+.about-me {
+  display: grid;
+  grid-column-start: 1fr 6fr;
+  grid-template-rows: 100%;
+  grid-template-areas: 'photo about_me_text';
+
+}
+
+.photo {
+  grid-area: photo;
+}
+
+.about_me_text {
+  grid-area: about_me_text;
+}
+
+.info {
+  display: grid;
+  grid-column-start: 2fr 2fr 2fr;
+  grid-template-rows: 100%;
+  grid-template-areas: 'contact tools projects';
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.tools {
+  grid-area: tools;
+}
+
+.project {
+  grid-area: projects;
+}
