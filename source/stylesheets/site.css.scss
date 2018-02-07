@@ -1,9 +1,26 @@
+body {
+  background-color: #fffff;
+}
+
 p {
-  line-height: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+h5 {
+  color: #6998a0;
+  font-size: 50px;
+  text-align: center;
 }
 
 h3 {
   color: #6998a0;
+  font-size: 40px;
+}
+
+.footer {
+  color: #6998a0;
+  font-size: 40px;
 }
 
 .about-me {
@@ -11,11 +28,12 @@ h3 {
   grid-column-start: 1fr 6fr;
   grid-template-rows: 100%;
   grid-template-areas: 'photo about_me_text';
-
+  padding-top: 20px;
 }
 
 .photo {
   grid-area: photo;
+  padding-left: 20px;
 }
 
 .about_me_text {
@@ -31,6 +49,8 @@ h3 {
 
 .contact {
   grid-area: contact;
+  font-size: 24px;
+  padding-left: 20px;
 }
 
 .tools {
@@ -39,4 +59,9 @@ h3 {
 
 .project {
   grid-area: projects;
+  font-style: italic;
+}
+
+.li {
+  display: inline;
 }

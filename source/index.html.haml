@@ -3,6 +3,7 @@ title: karlmagnus
 ---
 .main
 
+
 <!-- title -->
 %section.title
   .container
@@ -12,11 +13,15 @@ title: karlmagnus
 <!-- About me Section -->
 .about-me
   .photo
-    %img(src="/images/karlmagnus.png" width="20%" height="20%")
+    %img(src="/images/karlmagnus.png" width="50%" height="50%")
   .about_me_text
     .text
-      %h3 < about_me />
-      %p 32 year old norwegian who enjoys cheap airline tickets, lower division football, sundays, robotic vacuumers, cheap things from ebay and the feeling you get when wearing a pair of brand new socks for the first time. Oh, almost forgot, I'm trying to learn to code!
+      %h5 < about_me />
+      %p
+        32 year old norwegian who enjoys cheap airline tickets, lower division football, sundays, robotic vacuumers, cheap things from ebay and the feeling you get when wearing a pair of brand new socks for the first time.
+        %br/
+        %br/
+        Oh, almost forgot. I'm trying to learn to < code />.
 
 <!-- Info -->
 .info
@@ -35,13 +40,14 @@ title: karlmagnus
       %a{:href => "https://www.instagram.com/karl_magnus"} Instagram
   .tools
     %h3 < tools />
-    %p ruby
-    %p JS
+    %p Ruby
+    %p JavaScript
     %p HTML
     %p CSS
   .projects
+    %h3 < projects />
     - data.projects.each do |project|
-      %h4= project[:name]
+      %p= project[:name]
       %a{href: project[:url]}= project[:description]
 
 
