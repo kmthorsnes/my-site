@@ -3,8 +3,10 @@
   %head
     %link{:href => "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css", :rel => "stylesheet"}/
     %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css", :rel => "stylesheet"}/
+    %link{:href => "/images/old_computer.png", :rel => "icon"}/
     / Global site tag (gtag.js) - Google Analytics
     %script{:async => "", :src => "https://www.googletagmanager.com/gtag/js?id=UA-113730719-1"}
+    //%script{:src => "getyear.js"}
     :javascript
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -18,7 +20,7 @@
     %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
     %title= current_page.data.title || "Middleman"
     = stylesheet_link_tag "site"
-    = javascript_include_tag "site"
+
   %body
     = partial 'partials/header'
     = yield
@@ -26,3 +28,4 @@
     %script{:crossorigin => "anonymous", :integrity => "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN", :src => "https://code.jquery.com/jquery-3.2.1.slim.min.js"}
     %script{:crossorigin => "anonymous", :integrity => "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q", :src => "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"}
     %script{:crossorigin => "anonymous", :integrity => "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl", :src => "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"}
+    = javascript_include_tag "site"

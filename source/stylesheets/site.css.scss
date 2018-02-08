@@ -4,13 +4,17 @@ body {
 
 p {
   font-size: 16px;
-  line-height: 18px;
+  line-height: 20px;
 }
 
 h5 {
   color: #6998a0;
   font-size: 50px;
   text-align: center;
+}
+
+h1 {
+  color: #6998a0;
 }
 
 h3 {
@@ -22,8 +26,6 @@ a {
   color: black;
   font-size: 16px;
 }
-
-
 
 .footer {
   color: #6998a0;
@@ -65,15 +67,20 @@ a {
   grid-area: tools;
   padding-left: 30px;
   padding-top: 30px;
-  position: relative;
-  top: 50%
+
 }
+
+toolstext {
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: middle;
+
+}
+
 
 .project {
   grid-area: projects;
-  font-style: italic;
-
-
+  padding-top: 30px;
 }
 
 .li {
@@ -82,6 +89,20 @@ a {
 
 .toolsicons {
   font-size: 40px;
+}
 
+.contacticons {
+  font-size: 25px;
+}
 
+headertext {
+  color: #6998a0;
+}
+
+footertext {
+  color: #6998a0;
+}
+
+nav.navbar.navbar-light.bg-light.fixed-top {
+  padding-left: 30px;
 }

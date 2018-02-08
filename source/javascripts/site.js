@@ -1,1 +1,1 @@
-// This is where it all goes :)
+document.querySelector("footertext").innerHTML += ' ' + new Date().getFullYear();

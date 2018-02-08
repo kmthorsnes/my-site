@@ -34,34 +34,40 @@ title: karlmagnus
       %a{:href => "mailto:hei@karlmagnus.no?Subject=Hei%20Kalle", :target => "_top"} hei@karlmagnus.no
     %p
       %a{:href => "https://github.com/kmthorsnes"}
-        %i.fa.fa-lg.fa-github
+        %i.contacticons.fa.fa-lg.fa-github
       %a{:href => "https://www.linkedin.com/in/karl-magnus-thorsnes/"}
-        %i.fa.fa-lg.fa-linkedin
+        %i.contacticons.fa.fa-lg.fa-linkedin
       %a{:href => "https://www.facebook.com/karlmagnus"}
-        %i.fa.fa-lg.fa-facebook
+        %i.contacticons.fa.fa-lg.fa-facebook
       %a{:href => "https://www.instagram.com/karl_magnus"}
-        %i.fa.fa-lg.fa-instagram
+        %i.contacticons.fa.fa-lg.fa-instagram
       %a{:href => "https://www.twitter.com/karlmagnus"}
-        %i.fa.fa-lg.fa-twitter
+        %i.contacticons.fa.fa-lg.fa-twitter
       %a{:href => "https://www.twitter.com/karlmagnus"}
-        %i.icon-git
+        %i.contacticons.icon-git
   .tools
     %h3 < tools />
     %p
       %i.toolsicons.icon-html5-alt
-      html
+        %toolstext Html
     %p
       %i.toolsicons.icon-javascript-alt
-      JavaScript
+        %toolstext JavaScript
     %p
       %i.toolsicons.icon-ruby
-      Ruby
+        %toolstext Ruby
     %p
       %i.toolsicons.icon-css
-      CSS
+        %toolstext CSS
     %p
-  .projects
+  .project
     %h3 < projects />
-    - data.projects.each do |project|
-      %p= project[:name]
-      %a{href: project[:url]}= project[:description]
+    - data.projects. each do |project|
+      %img(src="#{project[:projecticon]} "height="25px")
+      %a{href: project[:url]}= project[:name]
+      %p= project[:description]
+
+
+    -# - data.projects.each do |project|
+    -#   %a{href: project[:url]}= project[:description]
+    -#   %p= project[:name]
