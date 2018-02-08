@@ -18,6 +18,13 @@ h3 {
   font-size: 40px;
 }
 
+a {
+  color: black;
+  font-size: 16px;
+}
+
+
+
 .footer {
   color: #6998a0;
   font-size: 40px;
@@ -33,7 +40,7 @@ h3 {
 
 .photo {
   grid-area: photo;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .about_me_text {
@@ -50,18 +57,31 @@ h3 {
 .contact {
   grid-area: contact;
   font-size: 24px;
-  padding-left: 20px;
+  padding-left: 30px;
+  padding-top: 30px;
 }
 
 .tools {
   grid-area: tools;
+  padding-left: 30px;
+  padding-top: 30px;
+  position: relative;
+  top: 50%
 }
 
 .project {
   grid-area: projects;
   font-style: italic;
+
+
 }
 
 .li {
   display: inline;
+}
+
+.toolsicons {
+  font-size: 40px;
+
+
 }

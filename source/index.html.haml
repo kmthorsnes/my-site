@@ -23,50 +23,45 @@ title: karlmagnus
         %br/
         Oh, almost forgot. I'm trying to learn to < code />.
 
-<!-- Info -->
+<!-- Contact -->
 .info
   .contact
     %h3 < contact />
-    %p +47 93458771
+    %p
+      %a{:href => "tel:+4793458771"}
+        %i.icon-phone-alt +47 934 58 771
     %p
       %a{:href => "mailto:hei@karlmagnus.no?Subject=Hei%20Kalle", :target => "_top"} hei@karlmagnus.no
     %p
-      %a{:href => "https://github.com/kmthorsnes"} GitHub
-    %p
-      %a{:href => "https://www.linkedin.com/in/karl-magnus-thorsnes/"} LinkedIn
-    %p
-      %a{:href => "https://www.facebook.com/karlmagnus"} Facebook
-    %p
-      %a{:href => "https://www.instagram.com/karl_magnus"} Instagram
+      %a{:href => "https://github.com/kmthorsnes"}
+        %i.fa.fa-lg.fa-github
+      %a{:href => "https://www.linkedin.com/in/karl-magnus-thorsnes/"}
+        %i.fa.fa-lg.fa-linkedin
+      %a{:href => "https://www.facebook.com/karlmagnus"}
+        %i.fa.fa-lg.fa-facebook
+      %a{:href => "https://www.instagram.com/karl_magnus"}
+        %i.fa.fa-lg.fa-instagram
+      %a{:href => "https://www.twitter.com/karlmagnus"}
+        %i.fa.fa-lg.fa-twitter
+      %a{:href => "https://www.twitter.com/karlmagnus"}
+        %i.icon-git
   .tools
     %h3 < tools />
-    %p Ruby
-    %p JavaScript
-    %p HTML
-    %p CSS
+    %p
+      %i.toolsicons.icon-html5-alt
+      html
+    %p
+      %i.toolsicons.icon-javascript-alt
+      JavaScript
+    %p
+      %i.toolsicons.icon-ruby
+      Ruby
+    %p
+      %i.toolsicons.icon-css
+      CSS
+    %p
   .projects
     %h3 < projects />
     - data.projects.each do |project|
       %p= project[:name]
       %a{href: project[:url]}= project[:description]
-
-
--# -# %Section.test
--# -#   .container
--# -#     .box
--# -#       %h3 Single Coloured
--# -#       %hr/
--# -#       .text-center.center-block
--# -#       %p.txt-railway - Bootsnipp.com -
--# -#       %br/
--# -#       %a{:href => "https://www.facebook.com/bootsnipp"}
--# -#       %i.fa.fa-facebook-square.fa-3x.social
--# -#       %a{:href => "https://twitter.com/bootsnipp"}
--# -#       %i.fa.fa-twitter-square.fa-3x.social
--# -#       %a{:href => "https://plus.google.com/+Bootsnipp-page"}
--# -#       %i.fa.fa-google-plus-square.fa-3x.social
--# -#       %a{:href => "mailto:bootsnipp@gmail.com"}
--# -#       %i.fa.fa-envelope-square.fa-3x.social
--# -#       %hr/
--#
--#
