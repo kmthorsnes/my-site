@@ -1,3 +1,7 @@
+bg-light {
+  background-color: grey;
+}
+
 body {
   background-color: #fffff;
 }
@@ -5,12 +9,7 @@ body {
 p {
   font-size: 16px;
   line-height: 20px;
-}
-
-h5 {
-  color: #6998a0;
-  font-size: 50px;
-  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 h1 {
@@ -20,6 +19,14 @@ h1 {
 h3 {
   color: #6998a0;
   font-size: 40px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+h5 {
+  color: #6998a0;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 a {
@@ -27,9 +34,8 @@ a {
   font-size: 16px;
 }
 
-.footer {
+headertext {
   color: #6998a0;
-  font-size: 40px;
 }
 
 .about-me {
@@ -51,7 +57,7 @@ a {
 
 .info {
   display: grid;
-  grid-column-start: 2fr 2fr 2fr;
+  grid-column-start: 1fr 3fr 3fr;
   grid-template-rows: 100%;
   grid-template-areas: 'contact tools projects';
 }
@@ -63,20 +69,21 @@ a {
   padding-top: 30px;
 }
 
-.tools {
-  grid-area: tools;
-  padding-left: 30px;
-  padding-top: 30px;
-
+.contactcontent {
+  padding-left: 10px
 }
 
-toolstext {
+.tools {
+  grid-area: tools;
+  padding-top: 30px;
+}
+
+.toolstext {
   font-size: 16px;
   line-height: 20px;
   vertical-align: middle;
-
+  font-family: 'Libre Franklin', sans-serif;
 }
-
 
 .project {
   grid-area: projects;
@@ -92,17 +99,14 @@ toolstext {
 }
 
 .contacticons {
-  font-size: 25px;
+  font-size: 30px;
 }
 
-headertext {
+.footer {
   color: #6998a0;
+  font-size: 40px;
 }
 
 footertext {
   color: #6998a0;
-}
-
-nav.navbar.navbar-light.bg-light.fixed-top {
-  padding-left: 30px;
 }

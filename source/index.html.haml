@@ -3,13 +3,6 @@ title: karlmagnus
 ---
 .main
 
-
-<!-- title -->
-%section.title
-  .container
-    .box
-      %h1 karlmagnus
-
 <!-- About me Section -->
 .about-me
   .photo
@@ -29,12 +22,12 @@ title: karlmagnus
     %h3 < contact />
     %p
       %a{:href => "tel:+4793458771"}
-        %i.icon-phone-alt +47 934 58 771
+        %i.contactcontent.icon-phone-alt +47 934 58 771
     %p
-      %a{:href => "mailto:hei@karlmagnus.no?Subject=Hei%20Kalle", :target => "_top"} hei@karlmagnus.no
+      %a.contactcontent{:href => "mailto:hei@karlmagnus.no?Subject=Hei%20Kalle", :target => "_top"} hei@karlmagnus.no
     %p
       %a{:href => "https://github.com/kmthorsnes"}
-        %i.contacticons.fa.fa-lg.fa-github
+        %i.contactcontent.contacticons.fa.fa-lg.fa-github
       %a{:href => "https://www.linkedin.com/in/karl-magnus-thorsnes/"}
         %i.contacticons.fa.fa-lg.fa-linkedin
       %a{:href => "https://www.facebook.com/karlmagnus"}
@@ -49,21 +42,21 @@ title: karlmagnus
     %h3 < tools />
     %p
       %i.toolsicons.icon-html5-alt
-        %toolstext Html
+      %toolstext Html
     %p
       %i.toolsicons.icon-javascript-alt
-        %toolstext JavaScript
+      %toolstext JavaScript
     %p
       %i.toolsicons.icon-ruby
-        %toolstext Ruby
+      %toolstext Ruby
     %p
       %i.toolsicons.icon-css
-        %toolstext CSS
+      %toolstext CSS
     %p
   .project
     %h3 < projects />
     - data.projects. each do |project|
-      %img(src="#{project[:projecticon]} "height="25px")
+      %img(src="#{project[:projecticon]} "height="40px")
       %a{href: project[:url]}= project[:name]
       %p= project[:description]
 
