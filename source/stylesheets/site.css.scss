@@ -49,6 +49,7 @@ headertext {
 .photo {
   grid-area: photo;
   padding-left: 30px;
+
 }
 
 .about_me_text {
@@ -86,6 +87,11 @@ headertext {
 }
 
 .project {
+  grid-area: projects;
+  padding-top: 30px;
+}
+
+.projects {
   grid-area: projects;
   padding-top: 30px;
 }
