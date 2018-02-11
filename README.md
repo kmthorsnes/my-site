@@ -17,7 +17,7 @@ Individual challenge - Week 3.
 
 ### Weekend challenge
 1. Add a CV through a yml file - **Done**
-2. Add unit test for the logic 
+2. Add unit test for the logic - **Done** https://github.com/kmthorsnes/my_site/blob/master/spec/features/index_spec.rb
 
 
 ## Built With
