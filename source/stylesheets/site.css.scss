@@ -40,10 +40,11 @@ headertext {
 
 .about-me {
   display: grid;
-  grid-column-start: 1fr 6fr;
+  grid-column-start: 1fr 9fr;
   grid-template-rows: 100%;
   grid-template-areas: 'photo about_me_text';
   padding-top: 20px;
+  padding-right: 30px;
 }
 
 .photo {
@@ -53,19 +54,21 @@ headertext {
 }
 
 .about_me_text {
-  grid-area: about_me_text;
+  font-size: 24px;
+  grid-area: about_me_text
+  ;
 }
 
 .info {
   display: grid;
-  grid-column-start: 1fr 3fr 3fr;
+  grid-column-start: 2fr 2fr 2fr 2fr 2fr;
   grid-template-rows: 100%;
-  grid-template-areas: 'contact tools projects';
+  grid-template-areas: 'contact tools projects education work';
 }
 
 .contact {
+  font-size: 22px;
   grid-area: contact;
-  font-size: 24px;
   padding-left: 30px;
   padding-top: 30px;
 }
@@ -75,24 +78,59 @@ headertext {
 }
 
 .tools {
+  font-size: 22px;
   grid-area: tools;
+  padding-left: 30px;
   padding-top: 30px;
 }
 
 .toolstext {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 22px;
   vertical-align: middle;
   font-family: 'Libre Franklin', sans-serif;
 }
 
 .project {
   grid-area: projects;
+  padding-left: 30px;
   padding-top: 30px;
 }
 
-.projects {
-  grid-area: projects;
+.projecttitle {
+  font-size: 22px;
+  vertical-align: middle;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.projectdescription {
+  font-size: 16px;
+  vertical-align: middle;
+  font-family: 'Libre Franklin', sans-serif;
+  padding-left: 45px;
+}
+
+.education {
+  font-size: 28px;
+  line-height: 28px;
+  grid-area: education;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.eduheading {
+  font-size: 28px;
+  padding-left: 45px;
+}
+
+.edutext {
+  padding-left: 45px;
+}
+
+
+.work {
+  grid-area: work;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 30px;
 }
 
@@ -110,7 +148,7 @@ headertext {
 
 .footer {
   color: #6998a0;
-  font-size: 40px;
+  font-size: 18px;
 }
 
 footertext {
