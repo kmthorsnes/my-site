@@ -13,7 +13,7 @@ Individual challenge - Week 3.
 7. Deploy your site on GHPages - **Done** See: https://kmthorsnes.github.io/my_site/
 8. Use HAML as the template engine - **Done**
 9. Set up Google Analytics - **Done**
-10. What can you use RSpec for in a project like this? - *I guess it can be usefull for TDD-purpose - for creating different parts of a webpage bit-by-bit.*
+10. What can you use RSpec for in a project like this? - *I guess it can be usefull for TDD-purposes - for creating different parts of a webpage bit-by-bit.*
 
 ### Weekend challenge
 1. Add a CV through a yml file - **Done**
