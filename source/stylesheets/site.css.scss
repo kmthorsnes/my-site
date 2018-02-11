@@ -31,7 +31,6 @@ h5 {
 
 a {
   color: black;
-  font-size: 16px;
 }
 
 headertext {
@@ -97,7 +96,7 @@ headertext {
 }
 
 .projecttitle {
-  font-size: 22px;
+  font-size: 16px;
   vertical-align: middle;
   font-family: 'Libre Franklin', sans-serif;
 }
@@ -109,9 +108,12 @@ headertext {
   padding-left: 45px;
 }
 
+.projecttechnology {
+  font-style: italic;
+  padding-left: 45px;
+}
+
 .education {
-  font-size: 28px;
-  line-height: 28px;
   grid-area: education;
   padding-left: 30px;
   padding-top: 30px;
@@ -132,6 +134,10 @@ headertext {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
+}
+
+.worktext {
+  padding-left: 45px;
 }
 
 .li {

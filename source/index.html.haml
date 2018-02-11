@@ -56,26 +56,31 @@ title: karlmagnus
     %h3 < projects />
     - data.projects. each do |project|
       %img(src="#{project[:projecticon]} "height="40px")
-      %projecttitle{href: project[:url]}= project[:name]
+      %a.projecttitle{href: project[:url]}= project[:name]
       %br
-      %projectdescription= project[:description]
+      %projectdescription.projectdescription= project[:description]
       %br
+      %projecttechnology.projectdescription= project[:Projecttechnology]
+      %p
+
   .education
     %h3 < education />
     - data.education. each do |education|
       %img(src="#{education[:eduicon]} "height="40px")
-      %a= education[:eduname]
+      %edutext=education[:eduname]
       %br
-      %a.edutext= education[:eduwhere]
+      %projecttechnology.edutext= education[:eduwhere]
       %br
-      %a.edutext= education[:edutime]
+      %projecttechnology.edutext= education[:edutimes]
       %p
 
   .work
     %h3 < work />
     - data.work. each do |work|
       %img(src="#{work[:workicon]} "height="40px")
-      %p= work[:workname]
-      %p= work[:workdescription]
-      %p= work[:workemployer]
+      %worktext= work[:workposition]
+      %br
+      %projecttechnology.worktext= work[:workemployer]
+      %br
+      %projecttechnology.worktext= work[:worktimes]
       %p
