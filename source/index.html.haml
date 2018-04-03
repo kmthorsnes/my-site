@@ -6,7 +6,7 @@ title: karlmagnus
 <!-- About me Section -->
 .about-me
   .photo
-    %img(src="/images/karlmagnus2.png" width="50%" height="50%")
+    %img(src="images/karlmagnus2.png" width="25%" height="25%")
   .about_me_text
     .text
       %h5 < about_me />
@@ -29,7 +29,7 @@ title: karlmagnus
         %i.contacticons.fa.fa-lg.fa-linkedin
       %a{:href => "https://www.facebook.com/karlmagnus"}
         %i.contacticons.fa.fa-lg.fa-facebook
-      %a{:href => "https://www.instagram.com/karl_magnus"}
+      %a{:href => "https://www.instagram.com/karl.magnus"}
         %i.contacticons.fa.fa-lg.fa-instagram
       %a{:href => "https://www.twitter.com/karlmagnus"}
         %i.contacticons.fa.fa-lg.fa-twitter
@@ -39,15 +39,29 @@ title: karlmagnus
       %i.toolsicons.icon-html5-alt
       %toolstext Html
     %p
+      %i.toolsicons.icon-css
+      %toolstext CSS
+    %p
       %i.toolsicons.icon-javascript-alt
       %toolstext JavaScript
     %p
       %i.toolsicons.icon-ruby
       %toolstext Ruby
     %p
-      %i.toolsicons.icon-css
-      %toolstext CSS
+      %i.toolsicons.icon-ruby-on-rails
+      %toolstext Ruby on rails
     %p
+      %i.toolsicons.icon-angular
+      %toolstext Angular
+    %p
+      %i.toolsicons.icon-sass
+      %toolstext Sass
+    %p
+      %i.toolsicons.icon-jquery
+      %toolstext jQuery
+    %p
+      %i.toolsicons.icon-database
+      %toolstext SQL
   .project
     %h3 < projects />
     - data.projects. each do |project|

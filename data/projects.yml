@@ -1,3 +1,21 @@
+- name: B&N Invitational voting
+  description: Freestyle skiing competition voting app
+  url: https://github.com/CraftAcademy/bn-invitational-frontend
+  projecticon: /images/skier.png
+  Projecttechnology: Ruby on Rails and Ionic
+
+- name: Publication service
+  description: Web application for publishing articles
+  url: https://github.com/CraftAcademy/dream_team_publications
+  projecticon: /images/newspaper.png
+  Projecttechnology: Ruby on rails
+
+- name: Euphony
+  description: Web app which use Spotify API
+  url: https://github.com/CraftAcademy/euphony
+  projecticon: /images/spotify.png
+  Projecttechnology: Ruby on rails
+
 - name: Cooper challenge
   description: Scoring cooper test results
   url: https://github.com/kmthorsnes/cooper_test
@@ -14,10 +32,4 @@
   description: Virtual ATM.
   url: https://github.com/kmthorsnes/atm2
   projecticon: /images/atm.png
-  Projecttechnology: Ruby
-
-- name: FizzBuzz
-  description: First TDD project
-  url: https://github.com/kmthorsnes/fizz_buzz
-  projecticon: /images/dice.png
   Projecttechnology: Ruby
