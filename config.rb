@@ -1,3 +1,4 @@
+activate :livereload
 require 'extensions/build_cleaner'
 
 configure :build do
