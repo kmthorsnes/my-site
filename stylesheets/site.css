@@ -1,0 +1,131 @@
+bg-light {
+  background-color: grey; }
+
+body {
+  background-color: #fffff; }
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Libre Franklin', sans-serif; }
+
+h1 {
+  color: #6998a0; }
+
+h3 {
+  color: #6998a0;
+  font-size: 40px;
+  font-family: 'Libre Franklin', sans-serif; }
+
+h5 {
+  color: #6998a0;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif; }
+
+a {
+  color: black; }
+
+headertext {
+  color: #6998a0; }
+
+.about-me {
+  display: grid;
+  grid-column-start: 1fr 9fr;
+  grid-template-rows: 100%;
+  grid-template-areas: 'photo about_me_text';
+  padding-top: 20px;
+  padding-right: 30px; }
+
+.photo {
+  grid-area: photo;
+  padding-left: 30px; }
+
+.about_me_text {
+  font-size: 24px;
+  grid-area: about_me_text;
+  vertical-align: middle; }
+
+.info {
+  display: grid;
+  grid-column-start: 2fr 2fr 2fr 2fr 2fr;
+  grid-template-rows: 100%;
+  grid-template-areas: 'contact tools projects education work'; }
+
+.contact {
+  font-size: 22px;
+  grid-area: contact;
+  padding-left: 30px;
+  padding-top: 30px; }
+
+.contactcontent {
+  padding-left: 10px; }
+
+.tools {
+  font-size: 22px;
+  grid-area: tools;
+  padding-left: 30px;
+  padding-top: 30px; }
+
+.toolstext {
+  font-size: 22px;
+  vertical-align: middle;
+  font-family: 'Libre Franklin', sans-serif; }
+
+.project {
+  grid-area: projects;
+  padding-left: 30px;
+  padding-top: 30px; }
+
+.projecttitle {
+  font-size: 16px;
+  vertical-align: middle;
+  font-family: 'Libre Franklin', sans-serif; }
+
+.projectdescription {
+  font-size: 16px;
+  vertical-align: middle;
+  font-family: 'Libre Franklin', sans-serif;
+  padding-left: 45px;
+  padding-bottom: 30px; }
+
+.projecttechnology {
+  font-style: italic;
+  padding-left: 45px; }
+
+.education {
+  grid-area: education;
+  padding-left: 30px;
+  padding-top: 30px; }
+
+.eduheading {
+  font-size: 28px;
+  padding-left: 45px; }
+
+.edutext {
+  padding-left: 45px; }
+
+.work {
+  grid-area: work;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px; }
+
+.worktext {
+  padding-left: 45px; }
+
+.li {
+  display: inline; }
+
+.toolsicons {
+  font-size: 40px; }
+
+.contacticons {
+  font-size: 30px; }
+
+.footer {
+  color: #6998a0;
+  font-size: 18px; }
+
+footertext {
+  color: #6998a0; }
