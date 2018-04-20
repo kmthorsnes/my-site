@@ -10,7 +10,7 @@ Individual challenge - Week 3.
 4. Include an About me section - **Done**
 5. Make use of Partials for the header and the footer section (at least)- **Done**
 6. Use a CSS framework (preferably with SASS) for styling- **Done**
-7. Deploy your site on GHPages - **Done** See: https://kmthorsnes.github.io/my_site/
+7. Deploy your site on GHPages - **Done** See: https://kmthorsnes.github.io/my-site/
 8. Use HAML as the template engine - **Done**
 9. Set up Google Analytics - **Done**
 10. What can you use RSpec for in a project like this? - *I guess it can be usefull for TDD-purposes - for creating different parts of a webpage bit-by-bit.*
